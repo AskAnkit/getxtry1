@@ -1,9 +1,14 @@
+
 import 'package:flutter/material.dart';
 
-import 'login_page.dart';
+
+import 'Controller /apiClintController.dart';
+
+import 'Pages/test.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+       const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -18,7 +23,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const LogInPage(),
+      home: PracticePage(),
     );
   }
-}
+ }
